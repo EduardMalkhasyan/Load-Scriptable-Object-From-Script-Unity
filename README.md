@@ -8,7 +8,7 @@ How to use
 Step 1 create c# script inherit it from ```SOLoader<T>```
 ![Screenshot_1](https://user-images.githubusercontent.com/78969017/236903316-1d79d812-1a9c-4736-a1b8-eb4ce8ccd014.jpg)
 
-Step 2 click to automatically create the Scriptable Object
+Step 2 click to automatically create the Scriptable Object 
 ![image](https://user-images.githubusercontent.com/78969017/236903510-177939e2-e04d-42b7-bab7-5043cedc408b.png)
 ![image](https://user-images.githubusercontent.com/78969017/236904264-2cfa4a89-05a0-49a8-9fe8-b19da30be504.png)
 
