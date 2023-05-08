@@ -5,11 +5,10 @@ public class OtherRobot : MonoBehaviour
 {
     [SerializeField] private Text robotName;
     [SerializeField] private Image robotImage;
-    [SerializeField] private RobotConfig robotConfigLink;
 
     private void Start()
     {
-        robotConfigLink = RobotConfig.SpecificValue("SOsLoadSystem/RobotConfigOther");
+        var robotConfigLink = RobotConfig.SpecificValue("SOsLoadSystem/RobotConfigOther");
         Setup(robotConfigLink.RobotName, robotConfigLink.RobotColor);
     }
 

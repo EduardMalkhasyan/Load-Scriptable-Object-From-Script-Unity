@@ -5,12 +5,10 @@ public class Player : MonoBehaviour
 {
     [SerializeField] private Text playerName;
     [SerializeField] private Image playerImage;
-    [SerializeField] private PlayerConfig playerConfigLink;
 
     private void Start()
     {
-        playerConfigLink = PlayerConfig.Value;
-        Setup(playerConfigLink.PlayerName, playerConfigLink.PlayerColor);
+        Setup(PlayerConfig.Value.PlayerName, PlayerConfig.Value.PlayerColor);
     }
 
     private void Setup(string name, Color imageColor)

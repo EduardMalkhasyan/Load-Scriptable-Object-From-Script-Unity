@@ -5,12 +5,10 @@ public class Robot : MonoBehaviour
 {
     [SerializeField] private Text robotName;
     [SerializeField] private Image robotImage;
-    [SerializeField] private RobotConfig robotConfigLink;
 
     private void Start()
     {
-        robotConfigLink = RobotConfig.Value;
-        Setup(robotConfigLink.RobotName, robotConfigLink.RobotColor);
+        Setup(RobotConfig.Value.RobotName, RobotConfig.Value.RobotColor);
     }
 
     private void Setup(string name, Color imageColor)
