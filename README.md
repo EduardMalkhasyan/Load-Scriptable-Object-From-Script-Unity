@@ -13,5 +13,4 @@ Step 2 click to automatically create the Scriptable Object
 ![image](https://user-images.githubusercontent.com/78969017/236904264-2cfa4a89-05a0-49a8-9fe8-b19da30be504.png)
 
 Step 3 Use it from where you want
-![image](https://user-images.githubusercontent.com/78969017/236903713-ae138d6a-9cdf-40c4-a0f3-65abbfee8519.png)
 ![image](https://user-images.githubusercontent.com/78969017/236904047-dd8feb3d-660b-417f-a4a9-d9c26d46d9d1.png)
