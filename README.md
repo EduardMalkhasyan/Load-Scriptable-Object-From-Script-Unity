@@ -19,3 +19,6 @@ Also create multiple instances from one Scriptable Object
 
 Step 1 Create manualy your scriptable object and load it from specific path ```yourScriptableObject.SpecificValue("yourPath");```
 ![image](https://user-images.githubusercontent.com/78969017/236905720-f2a7bcb7-553d-49dd-8cf6-9c672b7c1440.png)
+
+Result
+![image](https://user-images.githubusercontent.com/78969017/236906243-9b45ce2a-9307-48c5-abc3-9c9478941a70.png)
